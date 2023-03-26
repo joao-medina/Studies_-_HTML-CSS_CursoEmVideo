@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipografia</title>
+    <style>
+        body{
+            /*Medidas absolutas:
+            cm, mm, in, px, pt, pc.
+
+            Medidas relativas:
+            em, ex, rem, vw, vh.
+            
+            Usar apenas "em" ou "px", prioritariamente "em"
+            em = medida relativa ao tamanho atual da fonte
+            */
+            font-size: 1.25em;
+            font-style: normal; /* Estilo da fonte */  
+            font-weight: bolder; /* Peso da fonte (negrito) */
+            text-decoration: none; /* Decoração */         
+        }
+
+        h2 {
+            /*Shorthand font:
+            font-style -> font-weight -> font-size -> font-family*/
+            font: italic bolder 3em Tahoma;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Famílias das fontes</h1>
+    <h2 style="font-family: serif;">Fontes serifadas</h2>
+    <p style="font-family: serif;">Fontes serifadas são mais usadas em impressões, poís é mais fácil a leitura no papel.</p>
+
+    <h2 style="font-family: sans-serif;">Fontes não serifadas</h2>
+    <p style="font-family: sans-serif;">Fontes não serifadas são mais comuns na web pois, é mais fácil a leitura em tela.</p>
+
+    <h2 style="font-family: monospace;">Fontes Monoespaçadas</h2>
+    <p style="font-family: monospace;"> Nas fontes Monoespaçadas,a largura das letras são iguais. Esta fonte é usada em scripts</p>
+
+    <h2 style="font-family: cursive;">Fontes Script ou Handwriting</h2>
+    <p style="font-family: cursive;"> Fontes Script ou Handwriting são feitas para parecer que foram escritas a mão</p>
+
+    <h2 style="font-family: fantasy;">Fontes Display</h2>
+    <p style="font-family: fantasy;"> Fontes Display são usadas em logos ou títulos apenas, pois sua leitura é cansativa.</p>
+    
+</body>
+</html>

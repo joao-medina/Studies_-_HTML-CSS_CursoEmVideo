@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variáveis em css</title>
+    <style>
+        :root{
+            --cor1: red; 
+            --cor2: blue;
+            --cor3: green;
+
+            --fonte1: arial;
+            --fonte2: 'Gill Sans';
+            --fonte3: fantasy;
+        }
+
+        #p1 {
+            color: var(--cor1);
+            font-family: var(--fonte1);
+        }
+
+        #p2 {
+            color:var(--cor2);
+            font-family: var(--fonte2);
+        }
+
+        #p3 {
+            color: var(--cor3);
+            font-family: var(--fonte3);
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Variáveis em css</h1>
+    <p id="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt non nemo voluptates reiciendis consequuntur! Qui, quam pariatur! Officiis id eaque labore est, laudantium, reprehenderit expedita natus iste dolores temporibus commodi?</p>
+    <p id="p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo delectus quia incidunt dolore eos ipsa accusamus iste exercitationem cumque eius. Quia quibusdam dignissimos esse omnis, hic architecto nobis suscipit veritatis?</p>
+    <p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis possimus alias doloribus repudiandae, asperiores, ex temporibus ut ad expedita quae, nam libero sit sint accusantium dolorum suscipit soluta non quo!</p>
+    
+</body>
+</html>

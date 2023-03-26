@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens adaptatívas</h1>
+
+    <h2>Imagem dinâmica</h2>
+    <p>Abrindo imagens em diferentes dispositivos.</p>
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/imagem-p.jpg">
+        <!--Quando a imagem estiver menor que 500px, carrega a imagem pequena-->
+
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.jpg">
+        <!--Quando a tela estiver menor que 1050 px, carrega a imagem média-->
+
+        <img src="imagens/imagem-g.jpg" alt="Imagem grande">
+        <!--Imagem grande-->
+    </picture>
+</body>
+</html>

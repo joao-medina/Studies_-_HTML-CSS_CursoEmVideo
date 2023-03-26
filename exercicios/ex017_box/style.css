@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+    font-family: sans-serif;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    background-color: rgb(0, 181, 181);
+    height: 300px;
+    width: 300px;  
+    
+    border-width: 15px;
+    border-style: solid;
+    border-color: darkblue;
+
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+
+    outline-width: 10px;
+    outline-style: groove;
+    outline-color: black;
+
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+    box-shadow: 20px 20px 20px 20px;
+    /*horizontal, vertical, esfumaçado, tamanho*/
+
+    border-radius: 40px 0px;
+}
+
+#inlinebox {
+    font-weight: bold;
+    background-color: lightgreen;
+
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+
+    padding: 3px;
+    
+    margin: 5px;
+
+    outline-style: dashed;
+}
